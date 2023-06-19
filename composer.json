@@ -1,0 +1,28 @@
+{
+    "name": "nbnsoftware/lmcomponents",
+    "description": "A package of components for laravel/livewire",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francesc Verdú",
+            "email": "francesc@netbynet.net"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nbnsoftware\\lmcomponents\\": "src/LMComponents"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nbnsoftware\\LMComponents\\LMComponentsServiceProvider"
+            ]
+        }
+    }
+}
