@@ -1,6 +1,6 @@
 <?php
 
-namespace nbnsoftware\LMComponents;
+namespace nbnsoftware;
 
 use Livewire\WithPagination;
 

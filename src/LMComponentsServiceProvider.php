@@ -1,6 +1,6 @@
 <?php
 
-namespace nbnsoftware\LMComponents;
+namespace nbnsoftware;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
